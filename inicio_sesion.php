@@ -9,8 +9,8 @@
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
     <script>
         $(function() {
-            $("#header").load("header.html");
-            $("#footer").load("footer.html");
+            $("#header").load("header.php");
+            $("#footer").load("footer.php");
         });
     </script>
 </head>
@@ -28,20 +28,25 @@
                 </div>
             </div>
             <div class="row mx-auto pt-4">
-                <img class="foto_s mx-auto " src="/img/foto.jpg" alt="">
+                <img class="foto_s mx-auto " src="img/foto.jpg" alt="">
             </div>
             <div class="row mx-auto mb-5">
                 <form class="mx-auto">
+                <label class="mb-0" for="exampleInputPassword1">Contraseña</label>
                     <div class="input-group mb-3 mt-3">
+                    
                         <div class="input-group-prepend">
                             <span class="input-group-text" id="basic-addon1">@</span>
+                            
                         </div>
+                        
                         <input type="text" class="form-control" name="correo" placeholder="Correo electronico" aria-label="Username" aria-describedby="basic-addon1">
                     </div>
                     <div class="form-group">
                         <label for="exampleInputPassword1">Password</label>
                         <input type="password" name="contraseña" class="form-control" plasceholder="Contraseña" id="exampleInputPassword1">
                     </div>
+                    <a href="registro.php">registrate en el sistema</a>
 
                     <div class="boton-s mx-auto col-4">
                         <button type="submit" id="mainlogin" name="btnGuardar" class="btn btn-primary">Login</button>

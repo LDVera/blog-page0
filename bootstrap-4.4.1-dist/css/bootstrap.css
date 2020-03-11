@@ -45,6 +45,10 @@
 
 /*ESTILOS PROPIOS*/
 
+.p {
+    background-color: aqua;
+}
+
 .bienvenida_s {
     font-size: 40px;
 }
